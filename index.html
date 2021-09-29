@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+<fieldset>
+	 <form >
+          <label for="F_name">Student name:</label><br>
+          <input type="text" id="S_name" name="S_name" placeholder="Student name" ><br>
+          <label for="S_id">Student Id:</label><br>
+          <input type="text" id="S_id" name="S_id" placeholder="xx-xxxxx-x"  pattern="[0-9]{2}-[0-9]{5}-[0-9]{1}" ><br>
+          <label for="S_mail">Student email:</label><br>
+          <input type="email" id="S_mail" name="S_mail" placeholder="Student email" ><br>
+          <label for="S_semester">Semester:</label><br>
+          <input type="text" id="S_semester" name="S_semester" placeholder="Semester" ><br>
+          <label for="P_num">Phone number:</label><br>
+          <input type="text" id="P_num" name="P_num" placeholder="Phone number" maxlength="11"><br>
+          <label>Gender:</label><br>
+              <select>
+          	     <option value="Male">Male</option>
+                 <option value="Female">Female</option>
+          	     <option value="Others">Others</option>
+              </select></br>
+
+
+          <label>Message:</label><br>
+          <textarea>
+          	
+          </textarea><br>
+          	
+          
+          <input type="submit" value="Submit">
+     </form> 
+</fieldset>
+<h2>Student Information Data Table</h2>
+<table border="3">
+	<tr>
+		<th>Student name</th>
+		<th>Student id</th>
+		<th>Student email</th>
+		<th>Semester</th>
+		<th>Phone number</th>
+
+	</tr>
+	<tr>
+		<td>Alif</td>
+		<td>17-34117-1</td>
+		<td>hmalif3@gmail.com</td>
+		<td>12</td>
+		<td>01811111111</td>
+	</tr>
+	<tr>
+		<td>Rafik</td>
+		<td>17-34106-1</td>
+		<td>mdrafik@gmail.com</td>
+		<td>12</td>
+		<td>01822222222</td>
+	</tr>
+	<tr>
+		<td>Imran</td>
+		<td>17-34103-1</td>
+		<td>mdmoon@gmail.com</td>
+		<td>12</td>
+		<td>01833333333</td>
+	</tr>
+
+
+
+	
+</table>
+
+<h2>Student Information Data Table_2</h2>
+<table border="3">
+	<tr>
+		<th>Student name</th>
+		<th>Student id</th>
+		<th>Student email</th>
+		<th>Semester</th>
+		<th>Phone number</th>
+
+	</tr>
+	<tr>
+		<td>Alif</td>
+		<td>17-34117-1</td>
+		<td>hmalif3@gmail.com</td>
+		<td rowspan="3">12</td>
+		<td>01811111111</td>
+	</tr>
+	<tr>
+		<td>Rafik</td>
+		<td>17-34106-1</td>
+		<td>mdrafik@gmail.com</td>
+		
+		<td>01822222222</td>
+	</tr>
+	<tr>
+		<td>Imran</td>
+		<td>17-34103-1</td>
+		<td>mdmoon@gmail.com</td>
+		
+		<td>01833333333</td>
+	</tr>
+
+
+
+	
+</table>
+<hr>
+<video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+</video>
+    
+</body>
+</html>
